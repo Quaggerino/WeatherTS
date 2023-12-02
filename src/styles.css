@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.weather-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+
+.card-header {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card-body {
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+#temperature, #conditions, #pressure, #humidity {
+    margin: 10px 0;
+    color: #555;
+}
+
+.wrapper {
+    width: 100%;
+    height: 200px;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
